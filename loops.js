@@ -23,7 +23,7 @@ function maybeTrue() {
 
 function doWhileLoop(array){
 do {
-  delete array[0]
+  array.pop 
 } while (array.length>0 && maybeTrue());
 
   return array
